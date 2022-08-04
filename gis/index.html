@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>大屏数据可视化模板</title>
+		<link rel="stylesheet" type="text/css" href="./css/app.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+			  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+			  crossorigin=""/>
+	</head>
+	
+	<body>
+		<div id="dashboard">
+			<!-- 左侧栏 -->
+			<div id="colLeft">
+				<div class="panel-div">
+					<div class="panel-title">
+						<ul class="panel-tab">
+							<li class="active"><a href="#">Tab1</a></li>
+							<li><a href="#">Tab2</a></li>
+							<li><a href="#">Tab3</a></li>
+						</ul>
+					</div>
+					<div class="panel-con"></div>
+				</div>
+				<div class="panel-div">
+					<div class="panel-title">
+						<ul class="panel-tab">
+							<li class="active"><a href="#">Tab1</a></li>
+							<li><a href="#">Tab2</a></li>
+							<li><a href="#">Tab3</a></li>
+						</ul>
+					</div>
+					<div class="panel-con"></div>
+				</div>
+				<div class="panel-div">
+					<div class="panel-title">
+						<ul class="panel-tab">
+							<li class="active"><a href="#">Tab1</a></li>
+							<li><a href="#">Tab2</a></li>
+							<li><a href="#">Tab3</a></li>
+						</ul>
+					</div>
+					<div class="panel-con"></div>
+				</div>
+			</div>
+			
+			<!-- 中间区域 -->
+			<div id="colCenter">
+				<!-- 标题 -->
+				<div id="header">
+					<img class="header-title" src="./img/header-title.png" />
+				</div>
+				<!-- 核心图表区 -->
+				<div id="container">
+					<!-- 地图 -->
+					<div id="map1" class="map-panel"></div>
+					<div id="map2" class="map-panel"></div>
+				</div>
+			</div>
+			
+			<!-- 右侧栏 -->
+			<div id="colRight">
+				<div class="panel-div">
+					<div class="panel-title">
+						<ul class="panel-tab">
+							<li class="active"><a href="#">Tab1</a></li>
+							<li><a href="#">Tab2</a></li>
+							<li><a href="#">Tab3</a></li>
+						</ul>
+					</div>
+					<div class="panel-con"></div>
+				</div>
+				<div class="panel-div">
+					<div class="panel-title">
+						<ul class="panel-tab">
+							<li class="active"><a href="#">Tab1</a></li>
+							<li><a href="#">Tab2</a></li>
+							<li><a href="#">Tab3</a></li>
+						</ul>
+					</div>
+					<div class="panel-con"></div>
+				</div>
+				<div class="panel-div">
+					<div class="panel-title">
+						<ul class="panel-tab">
+							<li class="active"><a href="#">Tab1</a></li>
+							<li><a href="#">Tab2</a></li>
+							<li><a href="#">Tab3</a></li>
+						</ul>
+					</div>
+					<div class="panel-con"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+			crossorigin=""></script>
+	<script type="text/javascript" src="./js/liandong.js"></script>
+</html>
